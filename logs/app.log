@@ -1,0 +1,14 @@
+2022-10-08 16:02:48,539 INFO b.c.b.s.Application [main] Starting Application using Java 11.0.11 on DESKTOP-4HAFA6V with PID 19728 (D:\Codigos\udemy\udemy_jobs_spring_batch\01_projeto_batch\target\classes started by brunocs in D:\Codigos\udemy\udemy_jobs_spring_batch)
+2022-10-08 16:02:48,546 INFO b.c.b.s.Application [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 16:02:49,299 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.configurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-10-08 16:02:49,576 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-10-08 16:02:50,072 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-10-08 16:02:50,256 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-10-08 16:02:50,379 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-10-08 16:02:50,518 INFO b.c.b.s.Application [main] Started Application in 2.954 seconds (JVM running for 5.865)
+2022-10-08 16:02:50,700 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=15, nome=bruno}]
+2022-10-08 16:02:50,764 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2022-10-08 16:02:50,800 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 36ms
+2022-10-08 16:02:50,819 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=15, nome=bruno}] and the following status: [COMPLETED] in 82ms
+2022-10-08 16:02:50,831 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-08 16:02:50,868 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
