@@ -6,3 +6,5 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
+app:
+  arquivo: file:files/clientes.txt
