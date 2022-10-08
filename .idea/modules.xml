@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02_par_impar_batch/02_par_impar_batch.iml" filepath="$PROJECT_DIR$/02_par_impar_batch/02_par_impar_batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_projeto_batch/springbatch.iml" filepath="$PROJECT_DIR$/01_projeto_batch/springbatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/udemy_jobs_spring_batch.iml" filepath="$PROJECT_DIR$/.idea/udemy_jobs_spring_batch.iml" />
+    </modules>
+  </component>
+</project>
