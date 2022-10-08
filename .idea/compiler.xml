@@ -8,12 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="02_par_impar_batch" />
+        <module name="arquivolargurafixa" />
         <module name="springbatch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="02_par_impar_batch" target="11" />
       <module name="02_par_impar_natch" target="11" />
+      <module name="03-arquivo-largura-fixa" target="11" />
+      <module name="arquivolargurafixa" target="11" />
       <module name="parimparbatch" target="11" />
       <module name="springbatch" target="11" />
     </bytecodeTargetLevel>
@@ -22,6 +25,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="02_par_impar_batch" options="-parameters" />
       <module name="02_par_impar_natch" options="-parameters" />
+      <module name="03-arquivo-largura-fixa" options="-parameters" />
+      <module name="arquivolargurafixa" options="-parameters" />
       <module name="parimparbatch" options="-parameters" />
       <module name="springbatch" options="-parameters" />
     </option>
